@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @hello.date %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @hello.company %>
+</p>
+
+<p>
+  <strong>Tax:</strong>
+  <%= @hello.tax %>
+</p>
+
+<%= link_to 'Edit', edit_hello_path(@hello) %> |
+<%= link_to 'Back', hellos_path %>
